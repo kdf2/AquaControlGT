@@ -169,7 +169,7 @@ body.modo-oscuro {
   height: 100%;
   width: 100%;
   /* Ocupa todo el ancho del contenedor */
-  border: 1px solid #2f53ff;
+  
 }
 
 .columna {
@@ -177,9 +177,9 @@ body.modo-oscuro {
   height: 100%;
   /* Altura de cada columna */
   /* background-color: lightblue;*/
-  border: 1px solid #333;
-  text-align: center;
   border: 1px solid #2f53ff;
+  text-align: center;
+ /* border: 1px solid #2f53ff;*/
   
 }
 
