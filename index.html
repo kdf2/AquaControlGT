@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--
+    posibles nombres 
+    AquaControl
+    H2O Manager
+    ClearFlow
+    HydroAdmin
+    PureWater Manager
+    AquaTrack
+    AquaManage
+    AquaFlow
+    WaterWise
+    AquaServe
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/styles.css">
+    <title>AquaControl</title>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="logo">
+            <img src="imagenes/logo1.png" alt="Logo">
+            <span>AquaControl</span>
+        </div>
+        <div class="nav-links" id="nav-links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+        <button id="modoBtn" onclick="toggleModo()">
+            <i id="iconoModo" class="fas fa-sun"></i>
+        </button>
+
+        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div class="contenedor">
+        <div class="div1">
+            <div class="sensor">
+                <h1> Cantidad de agua en tanque</h1>
+                <div class="item1" style="display: none" id="div10">100%</div>
+                <div class="item2" style="display: none" id="div9">90%</div>
+                <div class="item3" style="display: none" id="div8">80%</div>
+                <div class="item4" style="display: none" id="div7">70%</div>
+                <div class="item5" style="display: none" id="div6">60%</div>
+                <div class="item6" style="display: none" id="div5">50%</div>
+                <div class="item7" style="display: none" id="div4">40%</div>
+                <div class="item8" style="display: none" id="div3">30%</div>
+                <div class="item9" style="display: none" id="div2">20%</div>
+                <div class="item10" style="display: none" id="div1">10%</div>
+            </div>
+        </div>
+        <div class="div2">
+            <div class="panel-de-control">
+                <div class="fila">
+                    <div class="columna" id="fecha-hora" >
+                        <br>
+                        <h1>Tiempo</h1>
+                        <h2 id="hora"></h2>
+                        <h2 id="dia"></h2>
+                        <h2 id="fecha"></h2>
+                        <br>
+                    </div>
+                    <div class="columna">
+                        <br>
+                        <h1>Título2 </h1>
+                        <span>Texto 4</span>
+                    </div>
+                </div>
+                <div class="fila">
+                    <div class="columna">
+                        <br>
+                        <h1>Título 3</h1>
+                        <span>Texto 4</span>
+                    </div>
+                    <div class="columna">
+                        <br>
+                        <h1>Título 4</h1>
+                        <span>Texto 4</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="javascript/javascript.js"></script>
+    <script type="module" src="javascript/conexion.js"> </script>
+</body>
+
+</html>
